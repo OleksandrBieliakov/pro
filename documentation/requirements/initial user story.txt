@@ -1,0 +1,26 @@
+The mobile app (native Android most likely) for splitting common costs.
+
+E.g. you live with a girlfriend/boyfriend and both of you spend money on different things you both will use, like food, rent, things for home etc.
+And you want your costs to be equal, so you need to keep track of them. Later you can see who owes to whom and pay back.
+This works the same for roommates. Or in other situations. Like a trip with your friends where each of you pays for something and later you need to return money.
+
+It will work like this:
+	* you connect with your friend in the app creating a common balance 
+	* each of you can add a new spending with a title and amount of money. And another person will get the notification and see it immediately in his/her app 
+	* the total costs sum is updated as well as the balance, showing who owes whom 
+	* you can add a photo of a receipt or other payment confirmation to the payment entry in the app, if you did not another person can request it 
+	* you can have multiple such balances with different people and groups of people 
+	* you can split costs in equal shares or set some custom shares 
+
+Also, it would be very cool to implement some more complex things like:
+	* using of some text recognition algorithm to parse data from a receipt and automatically create a new spending entry (there are probably some open source libraries for text recognition) 
+	* implementing a possibility to pay back using the app:
+		- you have some negative balance
+		- you press the button "Pay back"
+		- then the app will redirect you to a picked payment method to make the transfer, preparing some payment details for the actual banking site or application
+		- after the payment is done the recipient is notified about it and needs to make a confirmation that he received the pay back
+		- then you can close you balance or continue using it 
+	* implementing some analytics:
+		- each spending entry is assigned some category (automatically or manually), e.g. grocery, rent, entertainment etc.
+		- then you can see what were your total spending for each category
+		- we can also use some visualization like diagrams or pie charts
