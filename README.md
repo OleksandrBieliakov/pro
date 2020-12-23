@@ -1,2 +1,2 @@
-# Thesis project at PJATK
+#  Thesis project at PJATK
 
